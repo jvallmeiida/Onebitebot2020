@@ -14,5 +14,5 @@ COPY Gemfile* ./
 RUN bundle install
 # Copia nosso código para dentro do container
 COPY . .
-# Roda nosso servidor 0.0.0.0
+# Roda nosso servidor 
 CMD rackup config.ru -o 0.0.0.0
