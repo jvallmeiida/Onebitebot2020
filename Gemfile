@@ -5,7 +5,8 @@ gem "sinatra-activerecord", '~> 2.0.14'
 gem 'pg'
 gem 'rake'
 gem 'pg_search', '~> 2.0.1'
-  
+gem "tux"
+ 
 group :development do
   gem "tux"
 end
