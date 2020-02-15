@@ -14,5 +14,6 @@ module FaqModule
       
       
     end
+    "traduzido com sucesso."
   end
 end
