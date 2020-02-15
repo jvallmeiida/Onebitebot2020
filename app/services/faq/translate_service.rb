@@ -10,7 +10,6 @@ module FaqModule
     def call
 
     response = HTTParty.get("https://translate.yandex.net/api/v1.5/tr.json/translate?key=#{ENV["SECRET_KEY"]}&text=#{@phrase}&lang=#{@in_language}-#{@for_language}&format=plain")
-    response_json = JSON.parse(response)
     response_json["text"]
       
     end
