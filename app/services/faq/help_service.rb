@@ -13,7 +13,7 @@ class HelpService
       response += "Lista as perguntas e respostas com aquela hashtag\n\n"
       response += "Perguntas e Respostas\n"
       response += "Mostra a lista de perguntas e respostas\n\n"
-      response += "Desejo traduzir uma frase\n\n"
+      response += "Desejo traduzir uma frase\n"
       response += "Traduz qualquer frase do português para o inglês \n\n"
       response
     end
