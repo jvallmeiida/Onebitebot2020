@@ -13,7 +13,7 @@ module FaqModule
     response
       
       
-    end
     "traduzido com sucesso."
+    end
   end
 end
