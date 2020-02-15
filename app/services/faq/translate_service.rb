@@ -1,6 +1,6 @@
 module FaqModule
   class TranslateService
-    def initialize(in_language, for_language, phrase)
+    def initialize(params)
       @in_language = params["in_language"]
       @for_language = params["in_language"]
       @phrase = params["phrase"]
