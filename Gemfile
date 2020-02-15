@@ -5,12 +5,12 @@ gem "sinatra-activerecord", '~> 2.0.14'
 gem 'pg'
 gem 'rake'
 gem 'pg_search', '~> 2.0.1'
-gem "tux"
+gem "httparty"
+gem "dotenv"
  
 group :development do
-  gem "tux"
+gem "tux"
 end
-
 
 gem "factory_bot"
 gem "ffaker"
